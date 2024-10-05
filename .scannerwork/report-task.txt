@@ -3,5 +3,5 @@ projectKey=generic-api
 serverUrl=https://sonarcloud.io
 serverVersion=8.0.0.56940
 dashboardUrl=https://sonarcloud.io/dashboard?id=generic-api
-ceTaskId=AZJb2otX36ivgDBZ4HsK
-ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AZJb2otX36ivgDBZ4HsK
+ceTaskId=AZJb-tox5qaicKeJAP84
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AZJb-tox5qaicKeJAP84

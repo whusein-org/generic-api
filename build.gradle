@@ -17,6 +17,11 @@ dependencies {
     implementation "org.http4s:http4s-dsl_2.13:0.23.16"
     implementation "io.circe:circe-generic_2.13:0.14.6"
     implementation "org.typelevel:cats-effect_2.13:3.5.2"
+    implementation "org.tpolecat:doobie-core_2.13:1.0.0"
+    implementation "org.tpolecat:doobie-postgres_2.13:1.0.0" // for PostgreSQL support
+    implementation "org.tpolecat:doobie-hikari_2.13:1.0.0" // for HikariCP connection pool
+    testImplementation "org.tpolecat:doobie-specs2_2.13:1.0.0" // for testing with Specs2
+    implementation "com.zaxxer:HikariCP:5.0.1" // for connection pooling
 
     // Optional test dependencies
     testImplementation "org.scalatest:scalatest_2.13:3.2.17"

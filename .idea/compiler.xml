@@ -2,7 +2,8 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel>
-      <module name="generic-api.app" target="21" />
+      <module name="generic-api.app.main" target="21" />
+      <module name="generic-api.app.test" target="21" />
     </bytecodeTargetLevel>
   </component>
 </project>

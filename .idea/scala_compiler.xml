@@ -6,6 +6,10 @@
       <option name="uncheckedWarnings" value="true" />
       <option name="featureWarnings" value="true" />
     </profile>
+    <profile name="Gradle 2" modules="generic-api.app.main,generic-api.app.test">
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+    </profile>
     <profile name="sbt 1" modules="generic-api" />
   </component>
 </project>
